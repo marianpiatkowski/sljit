@@ -15,6 +15,8 @@
   selector. See `sljitConfig.h` for all possible values. For C++ compilers,
   rename `sljitLir.c` to `sljitLir.cpp`.
 
+  Alternatively, CMake can be used to be tests and the examples in the documentation:
+
 ## More info:
   https://zherczeg.github.io/sljit/
 

@@ -1,28 +1,27 @@
+# SLJIT - Stack Less JIT Compiler
 
-                     SLJIT - Stack Less JIT Compiler
-
-Purpose:
+## Purpose:
   A simple, machine independent JIT compiler, which suitable for
   translating interpreted byte code to machine code. The sljitLir.h
   describes the LIR (low-level intermediate representation) of SLJIT.
 
-Compatible:
+## Compatible:
   Any C (C++) compiler. At least I hope so.
 
-Using sljit:
-  Copy the content of sljit_src directory into your project source directory.
-  Add sljitLir.c source file to your build environment. All other files are
-  included by sljitLir.c (if required). Define the machine by SLJIT_CONFIG_*
-  selector. See sljitConfig.h for all possible values. For C++ compilers,
-  rename sljitLir.c to sljitLir.cpp.
+## Using sljit:
+  Copy the content of `sljit_src` directory into your project source directory.
+  Add `sljitLir.c` source file to your build environment. All other files are
+  included by `sljitLir.c` (if required). Define the machine by `SLJIT_CONFIG_*`
+  selector. See `sljitConfig.h` for all possible values. For C++ compilers,
+  rename `sljitLir.c` to `sljitLir.cpp`.
 
-More info:
+## More info:
   https://zherczeg.github.io/sljit/
 
-Contact:
+## Contact:
   hzmester@freemail.hu
 
-Special thanks:
+## Special thanks:
   Alexander Nasonov
   Carlo Marcelo Arenas Belón
   Christian Persch
